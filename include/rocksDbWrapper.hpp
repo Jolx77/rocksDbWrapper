@@ -35,7 +35,7 @@ public:
         rocksdb::Status status = rocksdb::DB::Open(options, pathDatabase, &m_database);
         if (!status.ok())
         {
-            throw std::runtime_error("Failed to open/create database: " << status.ToString());
+            throw std::runtime_error("Failed to open/create database due: " + status.ToString());
         }
     }
 
