@@ -2,8 +2,8 @@ cmake_minimum_required(VERSION 3.25 FATAL_ERROR)
 
 project(
   "rocksDBWrapper"
-  VERSION 1.0.0
-  DESCRIPTION "Header wrapper facilitating seamless integration of the RocksDB database into C++ projects."
+  VERSION 0.1.0
+  DESCRIPTION "Lib wrapper facilitating seamless integration of the RocksDB database into C++ projects."
   LANGUAGES CXX
 )
 
