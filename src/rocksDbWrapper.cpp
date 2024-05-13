@@ -14,7 +14,7 @@
  * all copies or substantial portions of the Software.
  */
 
-#include <rocksDBWrapper.hpp>
+#include "rocksDbWrapper.hpp"
 
 RocksDbWrapper::RocksDbWrapper(const std::string& pathDatabase)
 {
